@@ -1,3 +1,47 @@
-textarea {
-    resize: none;
+body {
+	font-family: Roboto;
 }
+#main-title{
+	font-size: 3em
+}
+.jumbotron{
+	background-color: #f7aac3;
+}
+.centered {
+	text-align: center;
+}
+
+input#question {
+	width: 30%;
+}
+
+.mybtn1:before{
+	background: #f7aac3;
+}
+.mybtn1, .mybtn2{
+	background-color: #f7aac3;
+	border-radius: 0px;
+	border: 3px solid #323232;
+	outline: none;
+	padding: 15px 45px;
+	font-size: 1.5em;
+	color: #323232;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.mybtn1:hover, .mybtn2:hover {
+	border-radius: 10px;
+	color: #fff;
+	background-color: #323232;
+	cursor: pointer;
+}
+.mybtn2:before{
+	background: white;
+}
+.mybtn2{
+	background-color: white;
+}
+
+
