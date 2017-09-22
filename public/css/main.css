@@ -1,3 +1,14 @@
+.margin-top-small {
+	margin-top: 15px;
+}
+.margin-top-medium {
+	margin-top: 40px;
+}
+.margin-top-large {
+	margin-top: 90px;
+}
+
+
 body {
 	font-family: Roboto;
 }
@@ -10,9 +21,10 @@ body {
 .centered {
 	text-align: center;
 }
-
-input#question {
-	width: 30%;
+#learn-more {
+	float: left;
+	padding: 10px 30px;
+	font-size: 1.18em;
 }
 
 .mybtn1:before{

@@ -9,8 +9,12 @@
 
     <title>Blockchain Bot</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/hover.css"/>
     <link rel="stylesheet" type="text/css" href="css/app.css"/>
@@ -19,22 +23,32 @@
 
 <body>
 
-   <!-- Main jumbotron for a primary marketing message or call to action -->
-   <div class="jumbotron">
-      <div class="container-fluid">
-         <div class="row text-center">
-            <div class="col-md-12">
-            <!-- <textarea id="question" rows="4" cols="50" placeholder="Enter your question."></textarea> -->
-               <input id='question' class='centered' placeholder='Enter your question'/>
-            </div>
-         </div>
-         <div class="row text-center" style="margin-top: 25px;">
-            <div class='col-md-12' >
-               <button id="submit" class="btn btn-success hvr-rectangle-out">Submit</button>
-            </div>
-         </div>
-      </div><!--container-fluid-->
-   </div>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container-fluid">
+      <div class='row pull-right'>
+        <div class='help-tip'>
+          <p>
+            <a href="https://www.ibm.com/watson/services/speech-to-text/">Watson Speech-To-Text</a><br/>
+            <a href="https://www.ibm.com/watson/services/text-to-speech/">Watson Text-To-Speech</a><br/>
+            <a href="https://www.ibm.com/watson/services/conversation/">Watson Conversation</a><br/>
+            <a href="https://www.ibm.com/watson/services/discovery/">Watson Discovery</a><br/>
+          </p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-8 col-md-offset-2">
+          <h3>Type in any questions regarding blockchain! Watson will query your question and give you a response back. To learn more about the actual services that is used in the process, click the links at the top right corner!</h3>
+          <input id='question' class='centered margin-top-medium' placeholder='Enter your question'/>
+        </div>
+      </div>
+      <div class="row text-center" style="margin-top: 25px;">
+        <div class='col-md-12' >
+          <button id="submit" class="btn btn-success hvr-rectangle-in">Submit</button>
+        </div>
+      </div>
+    </div><!--container-fluid-->
+  </div><!--jumbotron-->
 
    <div class='container'>
       <div class='row text-center'>
@@ -52,9 +66,9 @@
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
    <script language="javascript" type="text/javascript" src="js/main.js"></script>
 </body>
