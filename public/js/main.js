@@ -3,6 +3,14 @@ $(document).ready(function() {
 })
 
 $(function() {
+
+   $('#question').keypress(function(event) {
+    if (event.keyCode == 13 || event.which == 13) {
+        $('#submit').click();
+        event.preventDefault();
+       }
+   });
+   
    $("#submit").click(function(){
 
    	var question = $("#question").val().trim();
